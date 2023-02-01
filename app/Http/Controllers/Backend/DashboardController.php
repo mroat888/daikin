@@ -11,6 +11,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        dd('DashboardController');
+        return view('backend.dashboard.index');
     }
 }
